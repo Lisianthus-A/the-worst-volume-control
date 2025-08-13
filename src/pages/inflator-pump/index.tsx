@@ -118,8 +118,8 @@ function InflatorPump() {
   };
 
   useInterval(() => {
-    const volumn = ac.getVolume();
-    ac.setVolume(Math.max(volumn - 1, 0));
+    const volume = ac.getVolume();
+    ac.setVolume(Math.max(volume - 1, 0));
   }, 200);
 
   useEffect(() => {

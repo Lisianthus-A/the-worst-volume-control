@@ -6,7 +6,7 @@ import store from "@/store";
 import "./global.css";
 import App from "./App";
 
-const base = import.meta.env.DEV ? "/" : "/the-worst-volumn-control";
+const base = import.meta.env.DEV ? "/" : "/the-worst-volume-control";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>

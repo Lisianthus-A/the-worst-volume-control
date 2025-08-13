@@ -88,7 +88,7 @@ function Layout({ children }: Props) {
         <Menu />
         <a
           className={styles["github-wrapper"]}
-          href="https://github.com/Lisianthus-A/the-worst-volumn-control"
+          href="https://github.com/Lisianthus-A/the-worst-volume-control"
           target="_blank"
         >
           <GithubSvg />
